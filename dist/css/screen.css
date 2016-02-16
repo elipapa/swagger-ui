@@ -1235,9 +1235,12 @@
   cursor: pointer;
 }
 .swagger-section #header {
-  background-color: #EEE;
-  border-bottom: steelblue 1px solid;
+  background-color: #1F7AEB;
+  /*border-bottom: steelblue 1px solid;*/
   padding: 14px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(167,167,167,1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(167,167,167,1);
+  box-shadow: 0px 3px 5px 0px rgba(167,167,167,1);
 }
 .swagger-section #input_baseUrl {
   width: 400px;
@@ -1267,17 +1270,13 @@
   font-weight: bold;
   padding: 6px 8px;
   font-size: 0.9em;
-  color: white;
-  background-color: steelblue;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -khtml-border-radius: 4px;
-  border-radius: 4px;
+  color: #1F7AEB;
+  background-color: white;
+
 }
 .swagger-section #explore:hover {
-  background-color: dodgerblue;
+  background-color: #1F7AEB;
+  color: white;
 }
 .swagger-section #header #logo {
   display: block;
@@ -1289,7 +1288,7 @@
   text-decoration: none;
   /*background: transparent url(../images/logo_small.png) no-repeat left center;*/
   padding: 20px 0 0px 0px;
-  color: steelblue;
+  color: white;
   align-items: center; /* align vertical */
 }
 .swagger-section #content_message {
