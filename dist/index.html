@@ -36,7 +36,7 @@
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
-        url = "api/docs/swagger.json";
+        url = "/api/docs/swagger.yaml";
 //        url = "http://localhost:7999/api/latest/cttv/_/resource_list.json";
 //        url = "http://localhost:7999/api/docs/swagger.yaml";
 
@@ -113,7 +113,7 @@
     <a id="logo" href="http://www.targetvalidation.org"><img src="images/logo_small.png"></a>
     <span id="title">API DOCUMENTATION</span>
     <form id='api_selector'>
-      <div class='input'><input placeholder="http://www.targetvalidation.org/api/docs/swagger.json" id="input_baseUrl" name="baseUrl" type="text"/></div>
+      <div class='input'><input placeholder="http://www.targetvalidation.org/api/docs/swagger.yaml" id="input_baseUrl" name="baseUrl" type="text"/></div>
       <div class='input'><input placeholder="api_token" id="input_apiKey" name="apiKey" type="text"/></div>
       <div class='input'><a id="explore" href="#" data-sw-translate>Explore</a></div>
     </form>

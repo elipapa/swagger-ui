@@ -246,7 +246,7 @@
 }
 .swagger-section .swagger-ui-wrap pre {
   font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
-  background-color: #fcf6db;
+  background-color: #f7f7f7;
   border: 1px solid #e5e0c6;
   padding: 10px;
 }
@@ -598,7 +598,7 @@
 }
 .swagger-section .swagger-ui-wrap .markdown pre {
   font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
-  background-color: #fcf6db;
+  background-color: #f7f7f7;
   border: 1px solid #e5e0c6;
   padding: 10px;
   margin: 0 0 10px 0;
