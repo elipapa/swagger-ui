@@ -354,7 +354,7 @@
   color: #5555aa;
 }
 .swagger-section .swagger-ui-wrap .model-signature pre:hover {
-  background-color: #ffffdd;
+  background-color: #e7e7e7;
 }
 .swagger-section .swagger-ui-wrap .model-signature pre {
   font-size: .85em;
