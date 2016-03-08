@@ -73,7 +73,10 @@
         },
         docExpansion: "none",
         jsonEditor: false,
-        apisSorter: "alpha",
+        apisSorter: function (a, b) { 
+            var order = { 'public': '0', 'auth': '1', 'private': '2', 'utils': '3' }; 
+            return order[a.method].localeCompare(order[b.method]);    
+            },
         defaultModelRendering: 'schema',
         showRequestHeaders: false
       });
